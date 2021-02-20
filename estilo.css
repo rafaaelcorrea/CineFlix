@@ -19,7 +19,7 @@ section {  /* seção  */
     border-radius: 2px ; /* border -radius =  arredonda as pontas da section */
     padding: 100px; /* padding =  configura um espaço dentro da section  */
     width: 1250px; /*  width = largura  */
-    height: 1600px; /* altura */
+    height: 1400px; /* altura */
     margin: auto;  /* margin = centralização  */
     box-shadow: 5px 5px 10px black ; /* box-shadow =  sombremamento da section   */
     color: white;
@@ -29,11 +29,18 @@ section {  /* seção  */
 
 }
 
-footer {
-
-    color: rgb(247, 0, 0);
+footer { 
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 240, 240);
     text-align: center;
-    font-style:normal;
+    font-style:italic;
+    font-size: 13px;
+    width: 300px;
+    height: 22px;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px ;
+
 }
 
 
