@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css"> <!-- criação de arquivo externo de CSS ( estilo. css) -->
+</head>
+
+
+<body>
+
+
+    <header> <!-- Header = cabeçalho da página -->
+        
+        Cineflix
+
+    </header>
+
+<br>
+
+<section>
+
+    <div >
+
+    <form action="" method="GET" onsubmit="proc_film()">
+
+    <input type="search"  placeholder="Pesquisar filmes..."  id="proc" class="procurar" >
+       
+
+
+</form>
+
+<br>
+<br>
+
+<img src="texthome.PNG" alt= " texto = últimos lançamentos">
+
+<hr >
+
+<br>
+<div class=" holder"> <!-- div criada  que engolba todas as fotos, para  o alinhamento delas no CSS --> 
+
+    <div class="fotos">  <!-- div criada para a primeira foto, para ser usada na config. do CSS-->
+
+    <img src="catal1.PNG" >
+    <spam style="font-size: 13px"><br><strong>Sinopse:</strong> Após a morte de sua namorada, <br>um músico sem rumo se transforma em um sonho febril que dobra o gênero.</spam>
+    <br>
+    <br>
+    <input type="button" value="Ver Trailler" onclick="catal_1()"  class="botao" id="botao1">
+    <br>
+    <br>
+    <br>
+    <div id="res_01">
+
+    </div>
+</div>
+
+<br>
+
+<br>
+
+
+<div class="fotos"> <!-- div criada para a segunda foto, para ser usada na config. do CSS-->
+
+    <img src="catal_2.PNG "  > 
+    <span style="font-size: 13px;"><br>  <strong>Sinopse:</strong> Guiado por um instinto de rebelião e um equivalente senso de justiça, Ciccio Paradiso decide melhorar a vida dos trabalhadores italianos na década de 1950. Mas, tudo se complica quando ele se apaixona pela filha de um latifundiário, o que o coloca dividido entre dois mundos opostos. </span>
+    
+    <br>
+    <br>
+    <input type="button" value="Ver Trailler" onclick="catal_2()"  id="botao2" class="botao002" >
+    <br>
+    <br>
+    <br>
+    <div id="res_02">
+
+    </div>
+
+</div>
+
+
+<div class="fotos">
+
+    <img src="legado-explosivo2.png" alt=" catalogo 3 - legado explosivo"  > 
+
+    <span style="font-size: 13px;"><br>  <strong>Sinopse:</strong> Tom Carter é um especialista em demolição e uma lenda entre os criminosos. Ele conseguiu roubar uma fortuna sem nunca ter sido pego, mas tudo muda quando ele se apaixona por Annie e decide deixar o crime para trás. </span>
+    
+    <br>
+    <br>
+    <input type="button" value="Ver Trailler" onclick="catal_3()"  id="botao3" class="botao003" >
+    <br>
+    <br>
+    <br>
+    <div id="res_03">
+
+
+
+</div>
+
+</div>
+
+</section>
+
+<br>
+
+
+
+<footer> <!--Footer = rodapé da página -->
+
+    <p>&copy; Rede - todos os direitos reservados. 2021    </p>  <!-- &copy = símmbolo de corporation -->
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

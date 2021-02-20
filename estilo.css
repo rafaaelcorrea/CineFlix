@@ -1,0 +1,96 @@
+body {  /* Body =  Corpo da página   */
+
+    background-color: rgb(0, 0, 0); /* background-color = cor de fundo  */
+    background-image: url(filmes.jpg);
+    font: normal 15pt Arial ; /* font = fonte da letra do corpo */
+
+}
+
+header { /*  Header = cabeçalho */ 
+color: rgb(235, 4, 4); /* color = cor ( cor  do cabeçalho )  */ 
+text-align: center;  /* text-align =  alinahmento de texto */ 
+font-family: Impact ;   
+font-size:  110px;
+
+}
+
+section {  /* seção  */ 
+    background: rgb(0, 0, 0); /* background = fundo ( com cor branca)   */
+    border-radius: 2px ; /* border -radius =  arredonda as pontas da section */
+    padding: 100px; /* padding =  configura um espaço dentro da section  */
+    width: 1250px; /*  width = largura  */
+    height: 1600px; /* altura */
+    margin: auto;  /* margin = centralização  */
+    box-shadow: 5px 5px 10px black ; /* box-shadow =  sombremamento da section   */
+    color: white;
+
+
+
+
+}
+
+footer {
+
+    color: rgb(247, 0, 0);
+    text-align: center;
+    font-style:normal;
+}
+
+
+.botao {
+
+border-radius: 55px ;
+width: 100px;
+height: 25px ;
+}
+
+.holder {
+    display: flex;
+    justify-content: left   ;
+
+}
+
+.fotos {
+
+    width: 200px;
+    margin: 95px;
+    position: relative;
+    text-align: center;
+}
+
+.fotos::after {
+    content: attr(data-title); /* estilo que coloco a legenda no lugar */
+    position:  absolute;
+    width: 250%;
+    bottom: -20px;
+    left: 0;
+  }
+
+.botao002 {
+
+    border-radius: 55px ;
+    width: 100px;
+    height: 25px ;
+
+
+  }
+
+  .botao003 {
+
+    border-radius: 55px ;
+    width: 100px;
+    height: 25px ;
+a
+  }
+
+  .procurar {
+
+    border-radius: 55px ;
+    width: 700px;
+    height: 35px ;
+    margin: auto;
+    box-shadow: 3px 3px 8px crimson;
+    font-size: 15px;
+    font-style: italic;
+    
+  }
